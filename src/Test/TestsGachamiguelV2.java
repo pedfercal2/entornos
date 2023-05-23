@@ -53,4 +53,9 @@ public class TestsGachamiguelV2 {
         String r = GachamiguelV2.cata(10);
         Assertions.assertEquals("Miga", r);
     }
+    @Test
+    public void Test11(){
+        String r = GachamiguelV2.cata(11);
+        Assertions.assertEquals("11", r);
+    }
 }
