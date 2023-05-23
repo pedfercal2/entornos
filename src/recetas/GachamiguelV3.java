@@ -1,15 +1,16 @@
 package recetas;
 
-public class GachamiguelV2 {
-    public static String cata(int i) {
+public class GachamiguelV3 {
+    private static String mult3="Gacha", mult5="Miga",multAmbos=mult3+(mult5).toLowerCase();
+    public static String cata(int i){
         if(isMultiploDe3(i)){
             if(isMultiploDe5(i)){
-                return "Gachamiga";
+                return multAmbos;
             }else{
-                return "Gacha";
+                return mult3;
             }
         }else if(isMultiploDe5(i)){
-            return "Miga";
+            return mult5;
         }
         return i+"";
     }
