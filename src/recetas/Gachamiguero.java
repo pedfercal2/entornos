@@ -1,8 +1,8 @@
 package recetas;
 
-public class GachamiguelV3 {
+public class Gachamiguero {
     private static String mult3="Gacha", mult5="Miga",multAmbos=mult3+(mult5).toLowerCase();
-    public static String cata(int i){
+    public static String catar(int i){
         if(isMultiploDe3(i)){
             if(isMultiploDe5(i)){
                 return multAmbos;
