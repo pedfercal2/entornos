@@ -43,4 +43,9 @@ public class TestsGachamiguelV2 {
         String r = GachamiguelV2.cata(8);
         Assertions.assertEquals("8", r);
     }
+    @Test
+    public void Test9(){
+        String r = GachamiguelV2.cata(9);
+        Assertions.assertEquals("Gacha", r);
+    }
 }
