@@ -8,4 +8,9 @@ public class TestsGachamiguelV2 {
         String r = GachamiguelV2.cata(1);
         Assertions.assertEquals("1", r);
     }
+    @Test
+    public void Test2(){
+        String r = GachamiguelV2.cata(2);
+        Assertions.assertEquals("2", r);
+    }
 }
